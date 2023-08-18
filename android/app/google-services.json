@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1042632140372",
+    "project_id": "locationcars-b32d2",
+    "storage_bucket": "locationcars-b32d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042632140372:android:a95adf2772463713f96fc1",
+        "android_client_info": {
+          "package_name": "com.example.locationcars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042632140372-p46rc98lf8v6gnldbt05uvga1h1ivl9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.locationcars",
+            "certificate_hash": "66be16f9fc310d9944bceebfdd90931d55dd038d"
+          }
+        },
+        {
+          "client_id": "1042632140372-n41g9u0t948k2n5rdntj8qucuo5rtusf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRI7n-s7pLRfjzkcYtxxJh_Zlx_wFnVzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042632140372-n41g9u0t948k2n5rdntj8qucuo5rtusf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
