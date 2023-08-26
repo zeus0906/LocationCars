@@ -1,5 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:locationcars/widget/Home/showCarsDialog.dart';
 
 class AddCarSection extends StatelessWidget {
   final User? user;
@@ -51,7 +53,7 @@ class AddCarSection extends StatelessWidget {
                           color: Theme.of(context).primaryColor.withOpacity(0.5)
                       ),
                       child: IconButton(
-                        onPressed: (){},
+                        onPressed: () => showCarsDialog(context, user!),
                         icon: Icon(Icons.add),
                       ),
                     )
@@ -62,5 +64,9 @@ class AddCarSection extends StatelessWidget {
           )
         ])
     );
+  }
+
+  void showCarsDialog(BuildContext context, User user){
+    CarsDialog(user: user).showCarsDialog(context, ImageSource.gallery);
   }
 }
